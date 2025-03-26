@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "MyBehavior by snu0523",
+      "description": "MyBehaviorPack of MyGame",
+      "min_engine_version": [1, 19, 80],
+      "uuid": "29e388ab-3f2c-4079-af6e-1578c751e321",
+      "version": [1, 0, 1]
+    },
+    "modules": [
+      {
+        "type": "data",
+        "uuid": "dc7c27ee-d846-4d25-96a1-78c3ba3db86a",
+        "version": [1, 0, 0]
+      },
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "dc7c27ee-d846-4d25-96a1-78c3ba3db86a",
+        "entry": "scripts/index.js",
+        "version": [1, 0, 0]
+      }
+    ],
+    "capabilities": ["script-world-access"],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.17.0-beta"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.4.0-beta"
+      }
+    ]
+  }
+  
